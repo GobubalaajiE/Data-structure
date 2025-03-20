@@ -1,0 +1,49 @@
+#include<stdio.h>
+
+void main()
+{
+    
+int arr[100];
+    
+int n,i,new_element;
+    
+printf("enter a number:");
+    
+scanf("%d",&n);
+    
+for(i=0;i<n;i++)
+    
+{
+        
+scanf("%d",&arr[i]);
+    
+}
+    
+printf("enter the begin element of an array:");
+    s
+Scanf("%d",&new_element);
+    
+for(i=n;i>0;i--)
+    
+{
+        
+arr[i]=arr[i-1];
+    
+}
+    
+arr[0]=new_element;
+    
+n++;
+    
+printf("update array:\n");
+    
+for(i=0;i<n;i++)
+    
+{
+        
+printf("%d ", arr[i])
+        
+    
+}
+
+}
