@@ -1,0 +1,52 @@
+#include<stdio.h>
+
+void main()
+
+{
+    
+int arr[100];
+    
+int n,i,element,pos;
+    
+printf("enter a size of a array:");
+    
+scanf("%d",&n);
+    
+for(int i=0;i<n;i++)
+    
+{
+        
+scanf("%d",&arr[i]);
+    
+}
+
+    
+printf("enter a element :");
+    
+scanf("%d",&element);
+    
+printf("enter a postion:");
+    
+scanf("%d",&pos);
+    
+for(i=n;i>pos;i--)
+    
+{
+        
+arr[i]=arr[i-1];
+   
+}
+arr[pos]=element;
+    
+n++;
+    
+for(i=0;i<n;i++)
+    
+{
+        
+printf("%d ",arr[i]);
+    
+}
+    
+
+}
