@@ -1,0 +1,52 @@
+#include<stdio.h>
+
+void main()
+
+{
+    
+int arr[100];
+    
+int n,i;
+    
+printf("enter a size:\n");
+    
+scanf("%d",&n);
+    
+if(n>0)
+    
+{
+        
+n--;
+        
+printf(" last element should be delete");
+    
+}
+    
+else 
+{
+        
+printf(" last element should be not delete");
+    
+}
+    
+    
+for(i=0;i<n;i++)
+    
+{
+        
+scanf("%d",&arr[i]);
+    
+}
+    
+    
+printf("after deletion of the element:\n");
+    
+for(i=0;i<n;i++)
+    
+{
+    
+printf("%d "arr[i]);    
+    
+}
+
+}
